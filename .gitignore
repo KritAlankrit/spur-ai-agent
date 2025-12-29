@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Security: Ignore all .env files 
+.env
+backend/.env
+frontend/.env
+frontend/.env.*
+
+# Build Outputs
+dist/
+backend/dist/
+.svelte-kit/
+frontend/.svelte-kit/
+frontend/build/
+
+# IDE/System
+.vscode/
+.DS_Store
